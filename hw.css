@@ -1,0 +1,35 @@
+.Text_color {
+  color: red; 
+}
+
+a {
+  color: blue; 
+  text-decoration: none; 
+}
+
+a:hover {
+  color: green; 
+}
+
+.page2-background {
+  background-color: crimson;
+}
+
+.page2-header {
+  color: green; /* Text color for Page 2 header */
+  background-color: silver /* Background color for Page 2 header */
+  padding: 10px; /* Add padding for better visibility */
+  position: absolute; /* Position the header absolutely */
+  top: 0; /* Align the header to the top of the page */
+  left: 80%; /* Center the header horizontally */
+  transform: translateX(-50%); /* Adjust horizontally to center */ 
+  z-index: index; 1; /* Ensure the header stays on top of other content */
+}
+img {
+  position: absolute;      
+  bottom: 20%;      
+  left: 20%;      
+  transform: translateX(-50%)      
+  margin-bottom: 100px;     
+}
+
